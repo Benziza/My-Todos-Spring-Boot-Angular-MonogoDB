@@ -10,6 +10,8 @@ Create Angular application with DataTable component on the frontend and Spring B
 
 ### Spring Data MongoDB
 
+### Spring validation
+
 ### Maven
 
 ### Angular 13.0
