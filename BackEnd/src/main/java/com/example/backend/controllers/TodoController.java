@@ -31,7 +31,7 @@ public class TodoController {
     @PostMapping("/todos")
     public Todo createTodo(@Valid @RequestBody Todo todo) {
         todo.setCompleted(false);
-        return todoRepository.save(todo);
+        return todoRepository.insert(todo);
     }
 
     @GetMapping(value="/todos/{id}")
